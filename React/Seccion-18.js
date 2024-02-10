@@ -1,9 +1,9 @@
-function getUsuarioActivo(nombre){
-    return{
+const  getUsuarioActivo = (nombre)
+(    {
         uId: 'ABC567',
         userName: nombre
     }
-};
+);
 
 
 const getUsuario = (nombre) => ({
