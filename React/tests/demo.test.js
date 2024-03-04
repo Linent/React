@@ -5,7 +5,7 @@ describe('Pruebas en <DemoComponent />', () => {
         const msg = 'Hola mundo';
         const msg2 = msg.trim();
     
-        expect(msg).to
+        expect( msg ).toBe( msg2 );
     
     })
 })
