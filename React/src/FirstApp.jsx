@@ -7,7 +7,7 @@ const getSaludo = (nombre) => {
 export const FirstApp = ({ title, subTitle, name }) => {
   return (
     <>
-      <h1>{ title }</h1>
+      <div data-testid="test-title" > { title } </div>
       <p>{ subTitle }</p>
       <p>{ name }</p>
     </>
@@ -22,6 +22,6 @@ FirstApp.propTypes = {
 
 FirstApp.defaultProps = {
     name: 'Anderson',
-    title: 'No hay titulo',
+    //title: 'No hay titulo',
     subTitle: 'No hay subtitulo',
 }
